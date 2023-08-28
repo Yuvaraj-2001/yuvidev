@@ -1,0 +1,201 @@
+.intro{
+    padding-top: 180px;
+    position: relative;
+}
+.radial-gra{
+    position: absolute;
+    top: -200px;
+}
+
+.landing-page-img-container{
+    text-align: end;
+}
+.landing-page-img{
+    width: 400px;
+
+}
+.landing-page-socio-icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.landing-page-socio-icon.footer{
+    justify-content: center;
+  
+}
+.landing-page-socio-icon .icon{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #242a40;
+    transition: all;
+   
+}
+
+.landing-page-socio-icon.footer .icon{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all;
+    background: #1D2130;
+}
+.landing-page-socio-icon .icon:hover{
+	box-shadow: 1px 1px 3px 2px #dfe1fa;
+    border: 1px solid #000;
+}
+.anker{
+    color: #583FBC;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+/*
+.landing-page-socio-icon .icon svg:hover{
+    background: #fff;
+    border-radius: 10px;
+} */
+.align-content-lading{
+    display: flex;
+    align-items: center;
+}
+.landing-page-content > *{
+    margin-top: 18px;
+    font-family: "Manrope", Helvetica;
+    color: #242a40;
+}
+.portfolio-heading h1{
+    margin-top: 100px;
+    position: relative;
+    color: #242a40;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Manrope", Helvetica;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+}
+.portfolio-card{
+    padding:40px;
+    border-radius: 20px;
+}
+.portfolio-card.pitch-pro{
+    background-image: url("img/portfolio/bg-one.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:40px;
+}
+.portfolio-card.foto-factory{
+    background-image: url("img/portfolio/bg-two.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:40px;
+    margin-top: 40px;
+}
+.cta , .cta:hover {
+    text-decoration:none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    color: white;
+    background: #583FBC;
+    border: 0px;
+    box-shadow: 1px 1px 3px 2px #dfe1fa;
+}
+.flex-a-center{
+  display: flex;
+   align-items: center;
+}
+.portfolio-img-con{
+    text-align: right;
+}
+.portfolio-img-con img{
+    width: 400px;
+    height: 400px;
+}
+.portfolio-text-card > *{
+    margin-bottom: 20px;
+}
+.portfolio-text-card p{
+    color: #585F6F;
+    font-family: "Manrope";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.btn-group-flex{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.w-button{
+    border-radius: 10px;
+    background: #FFF;
+    color: #6878AC;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    border: 0px;
+    padding: 10px 20px;
+}
+.portfolio-text-card h2{
+    color: #242F65;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+.contact-form{
+    margin-top: 100px;
+    background: #C7EBE4;
+    padding: 40px;
+}
+.landing-page-socio-icon.footer .icon{ 
+    align-items: center;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #242F65;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    padding: 5px 10px;
+}
+.connect-info{
+    display: flex;
+    gap: 10px;
+}
+.contact-align{
+    display: flex;
+    align-items: center;
+}
+.let-build{
+    color: #242A41;
+    font-family: "Manrope";
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+}
+.profile-img img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 720px) {
+    .intro .row{
+        flex-direction: column-reverse;
+    }
+    .landing-page-img-container{
+        text-align: center;
+    }
+    .landing-page-img{
+        width: 200px;
+    }  
+    .connect-info{
+        padding-top: 50px;
+    }
+}
