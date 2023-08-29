@@ -167,6 +167,8 @@
 .connect-info{
     display: flex;
     gap: 10px;
+    align-items: center;
+    padding-bottom: 30px;
 }
 .contact-align{
     display: flex;
@@ -178,6 +180,8 @@
     font-size: 39px;
     font-style: normal;
     font-weight: 700;
+    line-height: 43px;
+    padding-bottom: 10px;
 }
 .profile-img img{
     width: 70px;
@@ -197,5 +201,41 @@
     }  
     .connect-info{
         padding-top: 50px;
+    }
+    .portfolio-img-con img{
+        width: 100%;
+        height: 100%;
+    }
+    .let-build{
+        font-size: 20px;
+    }
+    .intro {
+        padding-top: 80px;
+    }
+    .connect-info {
+        gap: 0px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .portfolio-heading h1{
+        font-size: 2rem;
+    }
+    .portfolio-text-card h2{
+        font-size: 1.5rem;
+    }
+    .w-button{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .portfolio-text-card p{
+        font-size: 12px;
+    }
+    .cta, .cta:hover{
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 14px;
     }
 }
