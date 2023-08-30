@@ -302,3 +302,7 @@
     background-image: linear-gradient(to right, #ccc 0%, #000000 50%, transparent 50%);
     background-size: 40px 1px;
 }
+
+.help-block{
+	color: red;
+}

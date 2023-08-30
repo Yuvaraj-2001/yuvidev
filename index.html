@@ -181,13 +181,13 @@
                         </div> -->
                         <div class="form-group">
                           <label>Phone</label>
-                          <input type="tel" class="form-control" id="user_phone" name="user_phone" placeholder="Enter Your Mobile Number">
+                          <input type="tel" maxlength="10" class="form-control" id="user_phone" name="user_phone" placeholder="Enter Your Mobile Number">
                         </div>
                         <div class="form-group">
                           <label>Message</label>
                           <textarea placeholder="Enter message here" id="user_message" name="user_message" class="form-control" height="200px"></textarea>
                         </div>
-                         <button class="btn btn-block cta text-center" onclick="validateUSername();">
+                         <button class="btn btn-block cta text-center" onclick="validateForm();">
                           <span id="spin-off">Submit</span>
                           <span class="spinner-border text-white" style="display: none;" id="spin-on"></span>
                         </button>
@@ -247,6 +247,7 @@
         </div>
         <div class="dashedSpace linear" style="padding-bottom: 10px;margin-top: -10px;"></div>
     </footer>
+<script src="script/dominar.js"></script>
 <script src="script/main.js"></script>
 </body>
 </html>
